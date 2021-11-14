@@ -174,3 +174,32 @@ a{
     font-size: 21px;
     margin-bottom: 15px;
 }
+
+
+/* hero */
+
+
+.menu{
+    background: #2378FC;
+    padding: 75px 0;
+}
+
+.menu__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item,
+.menu__list{
+    color: #fff;
+}
+
+.top-list{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.bottom-list:not(:last-child){
+    margin-bottom: 15px;
+}
