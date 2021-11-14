@@ -53,6 +53,7 @@ input:active{
 .txt-link{
     color: #fff;
     display: flex;
+    display: inline-block;
 }
 
 .txt-link:hover{
