@@ -50,6 +50,10 @@ button{
     display: flex;
 }
 
+.txt-link:hover{
+    text-decoration: underline;
+}
+
 .arrow{
     margin-left: 10px;
 }
@@ -202,4 +206,57 @@ a{
 
 .bottom-list:not(:last-child){
     margin-bottom: 15px;
+}
+
+/* menu */
+
+
+.events{
+    background: #FFC41E;
+}
+
+.events__items{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-item{
+    max-width: 350px;
+    width: 100%;
+}
+
+.events__text-top{
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__event{
+    margin-bottom: 20px;
+}
+
+.events-link{
+    color: #2E373B;
+}
+
+
+.events-top,
+.data,
+.info{
+    color: #2E373B;
+}
+
+.info{
+    font-size: 16px;
+}
+
+.data{
+    font-size: 14px;
+}
+
+.name__event{
+    margin: 10px 0;
+    color: #F6404F;
+    text-transform: uppercase;
 }
