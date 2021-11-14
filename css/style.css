@@ -42,6 +42,7 @@ button{
     background-image: url(../img/bgi/bgc__header.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .txt-link{
